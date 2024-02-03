@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="/MentalHealthCare/css/style4.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/MentalHealthCare/css/landing.css?v=<?php echo time(); ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<img src="/MentalHealthCare/css/4824.jpg">
+
 <div class="content">
-    <h1> Mental Health Care </h1>
-    <p>Login as</p>
-    <div>
-        <button type="button" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);"><a href="index.php">Patient</a></button>
-        <button type="button" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);"><a href="doctor login.php">Medical Specialist</a> </button>
+    <img src="/MentalHealthCare/images/meditation.jpg">
+    <div class="square">
+        <h1> <b>SereneSpace:</b> Empowering Mental Wellbeing </h1>
+        <p>Our platform offers personalized mental health assessments, connects you with local therapists, and provides a wealth of resources for self-care. Take the first step towards a healthier mind today.</p>
+        <h2>Login as</h2>
+        <button type="button" ><a href="patientlogin.php">Patient</a></button>
+        <button type="button"><a href="doctor login.php">Medical Specialist</a> </button>
     </div>
+
 </div>
 </body>
 </html>
