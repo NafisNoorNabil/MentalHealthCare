@@ -50,7 +50,7 @@
                         <br>
                         <p> Don't have an account? </p>
                     </div>
-                    <button class="submit-btn"><a href="Doctor regi.php">Create an account</a></button>
+                    <button class="submit-btn"><a href="\MentalHealthCare\LoginRegistration\Doctorregi.php">Create an account</a></button>
                 </form>
             </div>
         </div>
