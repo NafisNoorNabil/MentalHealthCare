@@ -18,7 +18,7 @@
         <p>Our platform offers personalized mental health assessments, connects you with local therapists, and provides a wealth of resources for self-care. Take the first step towards a healthier mind today.</p>
         <h2>Login as</h2>
         <button type="button" ><a href="patientlogin.php">Patient</a></button>
-        <button type="button"><a href="doctor login.php">Medical Specialist</a> </button>
+        <button type="button"><a href="doctorlogin.php">Medical Specialist</a> </button>
     </div>
 
 </div>

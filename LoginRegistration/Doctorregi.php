@@ -4,14 +4,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--<title> Registration or Sign Up form in HTML CSS | CodingLab </title>-->
-        <link rel="stylesheet" href="\MentalHealthCare\css\Doctorregi.css" />
+
+        <link rel="stylesheet" href="/MentalHealthCare/css/doctorregi.css" />
+
     </head>
     <body>
+
         <div class="wrapper">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_1ef7g2lw.json"  background=#E0FFFF speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
-
             <h2>Registration</h2>
             <form action="docregidata.php" method="POST">
                 <div class="input-box">
