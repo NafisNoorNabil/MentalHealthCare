@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="css/style4.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="/MentalHealthCare/css/style4.css?v=<?php echo time(); ?>">
 </head>
 <body>
-<img src="css/4824.jpg">
+<img src="/MentalHealthCare/css/4824.jpg">
 <div class="content">
     <h1> Mental Health Care </h1>
     <p>Login as</p>
