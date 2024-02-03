@@ -8,7 +8,7 @@ body {
 }
 
 .content {
-    display: flex; /* Use Flexbox to create a flexible container */
+    display: flex;
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 4px 1px rgb(161, 158, 158);
     border-radius: 5px;
@@ -21,17 +21,13 @@ body {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
-
 
 .content img {
     height: 80%;
     width: 50%;
     object-fit: cover;
     border-radius: 5px;
-
 }
 
 .content .square {
@@ -43,70 +39,54 @@ body {
     font-size: 20px;
     background-color: rgb(207, 251, 217);
     padding: 25px;
-
 }
 
-
-
-
-.content h1
-{
-    padding-top:40px;
+.content h1 {
+    padding-top: 40px;
     font-weight: 500;
     font-size: 34px;
     color: #000000;
-} 
+}
 
-.content h1 b
-{
+.content h1 b {
     font-size: 40px;
     color: #076130;
-} 
+}
 
-.content p
-{
+.content p {
     padding-left: 20px;
     position: relative;
     top: 8%;
-  	font-size: 18px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
     color: rgb(35, 92, 57);
-} 
+}
 
-.content h2
-{
+.content h2 {
     position: relative;
     top: 12%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: rgb(5, 11, 1);
     text-shadow: 1px 1px 1px rgb(177, 177, 177);
-    
-} 
+}
 
-button{
+button {
     background-color: none;
     align-items: center;
     position: relative;
     top: 15%;
     border: none;
     text-decoration: none;
-
-    margin-top: 40px;
-    margin-bottom: 70px;
+    margin-top: 30px; 
+    margin-bottom: 40px; 
     display: block;
     left: 50%;
     transform: translateX(-50%);
-
-
 }
 
-
-
-
-button a
-{
+button a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -114,17 +94,35 @@ button a
     transition: 0.3s;
     border: none;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px; /* Adjusted padding for smaller screens */
     background-color: white;
     border-radius: 10px;
+}
 
-    
-} 
-
-
-a:hover{
+a:hover {
     background-color: #076130;
     color: white;
     box-shadow: 0.5px 0.5px 5px 1px rgb(86, 86, 86);
 }
 
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content .square {
+        width: 80%;
+    }
+
+    button {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
