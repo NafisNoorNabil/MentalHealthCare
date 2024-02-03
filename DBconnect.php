@@ -2,7 +2,7 @@
 $severname="localhost";
 $username="root";
 $password="";
-$dbname="blood bank";
+$dbname="mentalhealthcare";
 
 $conn= new mysqli($severname, $username, $password);
 
@@ -11,6 +11,6 @@ if ($conn->connect_error) {
 	}
 else{
 	mysqli_select_db($conn, $dbname);
-	echo " ";
+	echo "Connected";
 	}
 ?>
