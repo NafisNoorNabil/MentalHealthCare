@@ -1,0 +1,69 @@
+
+
+img
+{
+    background-size: cover;
+
+    width: 100%;
+    height: 100vh;
+
+}
+.content
+
+{
+    width: 100%;
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: black;
+}
+
+.content h1
+{
+    position: relative;
+    top: -180px;
+    align: center;
+  	font-weight: 570;
+  	font-size: 3.8em;
+  	text-transform: uppercase;
+    font-family: system-ui;
+    text-align: center;
+    color: #827e9a;
+    width: 100%;
+}
+.content p
+{
+    font-weight: 500;
+  	font-size: 1.8em;
+  	text-transform: uppercase;
+    font-family: system-ui;
+}
+button
+{
+
+    width: 200px;
+	padding: 15px 0;
+	margin: 20px 10px;
+	border-radius: 10px;
+	border-color: black;
+	cursor: pointer;
+    background: transparent;
+
+}
+
+button:hover
+{
+    background: #B0C4DE;
+    transition: 0.5s;
+
+}
+
+a
+{
+    font-family: system-ui;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
