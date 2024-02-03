@@ -1,6 +1,6 @@
 <?php
 
-require_once('DBconnect.php');
+require_once('../DBconnect.php');
 if(isset($_POST['email']) && isset($_POST['pass'])){
 	$u=$_POST['email'];
 	$p=$_POST['pass'];

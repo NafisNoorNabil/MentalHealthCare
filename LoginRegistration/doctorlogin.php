@@ -51,7 +51,7 @@
                         <br>
                         <p> Don't have an account? </p>
                     </div>
-                    <a class="submit-btn" href="Doctorregi.php">Create an account</a>
+                    <a class="submit-btn" href="/MentalHealthCare/LoginRegistration/Doctorregi.php">Create an account</a>
                 </form>
             </div>
         </div>

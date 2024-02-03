@@ -13,7 +13,7 @@
             <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_of3skn6w.json"  background="#BAE8C7"  speed="1"  style=" width: 100%; height: 100%;"  loop  autoplay></lottie-player>
 
             <h2>Registration</h2>
-            <form action="regidata.php" method="POST">
+            <form action="\MentalHealthCare\LoginRegistration\regidata.php" method="POST">
                 <div class="input-box">
                     <input type="text" placeholder="Enter your name" name="name" required />
                 </div>

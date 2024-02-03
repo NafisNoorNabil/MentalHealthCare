@@ -38,21 +38,20 @@
                     <div class="inputBx">
                         Email <input type="email" name="email"/>
                     </div>
-
                     <div class="inputBx">
                         Password <input type="password" name="pass"/>
                     </div>
-
                     <div>
                         <br>
                         <input type="submit" value="LOGIN" name="">
-
                     </div>
                     <div class="inputBx">
                         <br>
                         <p> Don't have an account? </p>
                     </div>
-                    <a class="submit-btn" href="patientregi.php">Create an account</a>
+
+                    <a class="submit-btn" href="/MentalHealthCare/LoginRegistration/patientregi.php">Create an account</a>
+
                 </form>
             </div>
         </div>
