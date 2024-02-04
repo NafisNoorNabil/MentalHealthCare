@@ -8,4 +8,5 @@ A mental health care website where users can perform a quick diagnose of their m
 ![patientlogin](https://github.com/NHCsiam/MentalHealthCare/assets/113768942/14b56f22-66cd-4f8e-b01b-2a6ef6d0cd9c)
 
 
-![doclogin](https://github.com/NHCsiam/MentalHealthCare/assets/113768942/30e6b087-9790-4e81-a1cf-25f883e4e9cd)
+
+![doclogin](https://github.com/NHCsiam/MentalHealthCare/assets/113768942/8513c69e-75b4-4090-8b05-d0430b67382d)
