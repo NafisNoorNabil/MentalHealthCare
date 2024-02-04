@@ -11,8 +11,6 @@
 <body>
     <?php include('navbar.php'); ?>
     <section>
-
-        
         <div class="lottie">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_zly3nrlb.json"  background="transparent"  speed="1"  style="width: 80%; height:90%;"  loop  autoplay></lottie-player>

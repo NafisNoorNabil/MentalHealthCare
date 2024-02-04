@@ -36,7 +36,7 @@
                     <a href="#" class="dropbtn"><?php echo "$name [$email]"; ?></a>
 
                     <div class="dropdown-content">
-                        <a href="/MentalHealthCare/loginregistration/patientlogin.php">Logout</a>
+                        <a href="/MentalHealthCare/patient pages/logout.php">Logout</a>
                     </div>
                 </li>
 
