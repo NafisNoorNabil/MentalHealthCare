@@ -34,7 +34,7 @@
             <h1 class="header">SereneSpace</h1>
             <div class="formBx">
                 <h1>Login</h1>
-                <form action="login.php" class="form_design" method="post" >
+                <form action="/MentalHealthCare/LoginRegistration/login.php" class="form_design" method="post" >
                     <div class="inputBx">
                         Email <input type="email" name="email"/>
                     </div>
