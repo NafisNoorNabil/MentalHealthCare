@@ -56,18 +56,14 @@
                     <img src="/MentalHealthCare/images/consultation.png" alt="" />
                 </div>
 
-                <form action="">
+                <form action="booking.php" method="POST">
                     <h3>Book Appointment</h3>
-                    <input type="text" placeholder="Name" class="box" />
-                    <input
-                        type="number"
-                        placeholder="Number"
-                        class="box"
-                    />
-                    <input type="email" placeholder="Email" class="box" />
-                    <input type="date" class="box" />
+                    <input type="text" name="name" placeholder="Name" class="box" required/>
+                    <input type="number" name="number" placeholder="Number" class="box" required/>
+                    <input type="email" name="email" placeholder="Email" class="box" required/>
+                    <input type="date" name="date" class="box" required/>
                     <input type="submit" value="Book Now" class="btn" />
-                        <a class="btn" href="Payment.php">Payment</a>
+                    <a class="btn" href="Payment.php">Payment</a>
                 </form>
             </div>
         </section>

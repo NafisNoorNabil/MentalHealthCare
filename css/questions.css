@@ -4,21 +4,12 @@
 }
 body {
 	font-family: 'Poppins', sans-serif;
+	background-color:#66CDAA;
 }
-.wrapper {
-	width: 1170px;
-	margin: auto;
 
-}
-img
-{
-    height:100%;
-    weight: 100%;
-}
 
 button
 {
-
     color: Black;
 	padding: 10px 20px;
 	font-family: poppins;
@@ -48,82 +39,6 @@ a
 
 
 
-
-
-header {
-
-	background:#66CDAA;
-	height: 100vh;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-}
-
-.nav-area {
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-
-}
-.nav-area li {
-	display: inline-block;
-
-}
-.nav-area li a {
-	color: #fff;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: poppins;
-	font-weight: 700;
-	font-size: 15px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	border-radius: 25px;
-
-}
-.nav-area li a:hover {
-	background: #fff;
-
-	color: #333;
-}
-
-}
-/*resposive*/
-
-@media (max-width:600px) {
-	.wrapper {
-		width: 100%;
-	}
-	.logo {
-		float: none;
-		width: 50%;
-		text-align: center;
-		margin: auto;
-	}
-	img {
-		width: ;
-	}
-	.nav-area {
-		float: none;
-		margin-top: 0;
-	}
-	.nav-area li a {
-		padding: 5px;
-		font-size: 11px;
-	}
-	.nav-area {
-		text-align: center;
-	}
-	.welcome-text {
-		width: 100%;
-		height: auto;
-		margin: 30% 0;
-	}
-	.welcome-text h1 {
-		font-size: 30px;
-	}
-}
 
 
 .head

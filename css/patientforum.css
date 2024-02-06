@@ -96,6 +96,7 @@ button.button:hover {
 	text-align: center;
 	left: 50%;
 	transform: translateX(-50%);
+	border-radius: 8px;
 }
 
 
@@ -108,9 +109,9 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
 }
 
 /* Style for table headers */

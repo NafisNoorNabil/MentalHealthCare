@@ -1,5 +1,4 @@
-<?php
-session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,27 +8,11 @@ session_start(); ?>
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="css/que2.css?v=<?php echo time(); ?>"> 
+        <link rel="stylesheet" href="/MentalHealthCare/css/questions.css?v=<?php echo time(); ?>"> 
     </head>
 
     <body>
-
-
-
-        <header>
-
-            <div class="wrapper">
-
-
-                <ul class="nav-area">
-                    <li><a href="Homepage.php">Home</a></li>
-                    <li><a href="question2.0.php">Diagnose Problem</a></li>
-                    <li><a href="ss.php">Short Solutions</a></li>
-                    <li><a href="forum.php">Discuss Forum</a></li>
-                    <li><a href="Contact medical.php">Contact Medical Help</a></li>
-                    <li><a href="User and medical.php">Logout</a></li>
-                </ul>
-            </div>
+    <?php include('navbar.php'); ?>
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_7bfNOv.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
             <form  action="qdata.php" method="post" name="questionnaire" id="Questionnaire">
                 
@@ -56,7 +39,7 @@ session_start(); ?>
                 <button type="submit" name="save_multiple_checkbox" class="btn btn-primary">Submit</button>
 
             </form>
-        </header>
+
 
     </body>
 </html>
