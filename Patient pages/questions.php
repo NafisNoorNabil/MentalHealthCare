@@ -10,12 +10,13 @@
             display: none;
         }
     </style>
+    
 </head>
 
 <body>
     <?php include('navbar.php'); ?>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_7bfNOv.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
+    <div class="main">
+    
     <form id="Questionnaire">
         <div class="head">
             <p>Choose your symptoms</p>
@@ -38,32 +39,39 @@
                 <p><input type="checkbox" name="q[]" value="ocd"> Intrusive thoughts or fears</p>
         </div>
         <br>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="submit-btn">Submit</button>
     </form>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_7bfNOv.json" background="transparent" speed="1" style="width: 500px; height: 500px;" loop autoplay></lottie-player>
 
+
+    </div>
+    
+    
+    
     <div class="mental-health-condition anxiety">
-        <h2>Anxiety</h2>
+        <h2> You might be suffering from Anxiety</h2>
         <!-- Add information about anxiety -->
     </div>
 
     <div class="mental-health-condition depression">
-        <h2>Depression</h2>
-        <!-- Add information about depression -->
+        <h2>You might be suffering from Depression</h2>
+
     </div>
 
     <div class="mental-health-condition adhd">
-        <h2>ADHD</h2>
-        <!-- Add information about ADHD -->
+        <h2>You might be suffering from ADHD</h2>
+->
     </div>
 
     <div class="mental-health-condition insomnia">
-        <h2>Insomnia</h2>
-        <!-- Add information about insomnia -->
+        <h2>You might be suffering from Insomnia</h2>
+
     </div>
 
     <div class="mental-health-condition ocd">
-        <h2>OCD</h2>
-        <!-- Add information about OCD -->
+        <h2>You might be suffering from OCD</h2>
+
     </div>
 
     <script>
@@ -85,7 +93,7 @@
             selectedSymptoms.forEach(function(symptom) {
                 var conditionSection = document.querySelector('.mental-health-condition.' + symptom);
                 if (conditionSection) {
-                    conditionSection.style.display = 'block';
+                    conditionSection.style.display = 'inline-block';
                 }
             });
         });

@@ -29,7 +29,7 @@
             <ul class="nav-area">
                 <li><a href="Homepage.php">Home</a></li>
                 <li><a href="questions.php">Diagnose Problem</a></li>
-                <li><a href="ss.php">Short Solutions</a></li>
+                <li><a href="short solutions.php">Short Solutions</a></li>
                 <li><a href="patientforum.php">Discussion Forum</a></li>
                 <li><a href="Contact medical.php">Contact Medical Help</a></li>
                 <li class="dropdown">

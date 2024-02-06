@@ -8,38 +8,6 @@ body {
 }
 
 
-button
-{
-    color: Black;
-	padding: 10px 20px;
-	font-family: poppins;
-	border-radius: 25px;
-	border-color: black;
-	cursor: pointer;
-
-}
-
-
-.btn:hover
-{
-    background-color: black;
-	color: white;
-
-
-}
-a
-{
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: 700;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-	color: black;
-}
-
-
-
-
 
 .head
 {
@@ -49,60 +17,107 @@ a
 	border-radius: 25px;
     font-size: 40px;
     font-weight: bold;
-    font-family: system-ui;
+    font-family: 'Poppins', sans-serif;
 	border-color: black;
 	text-transform: uppercase;
-	text-decoration: underline;
-}
-input[type="button"]
-{
+	margin-top: 20px;
 
-    color: black;
-	padding: 10px 20px;
-	font-family: poppins;
-	border-radius: 25px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.boxes input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); 
+}
+
+
+.boxes p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+.boxes input[type="checkbox"]:checked + p {
+    color: #303030;
     font-weight: bold;
-    font-size: 20px;
-    font-family: system-ui;
-	border-color: black;
-	text-transform: uppercase;
-	cursor: pointer;
-	margin-left: 2rem;
-
 }
 
-input:hover
-{
-    background-color:#DCDCDC;
+/* Style for hover effect on checkboxes */
+.boxes input[type="checkbox"]:hover {
+    cursor: pointer;
 }
 
-p
-{
+/* Style for hover effect on text next to checkboxes */
+.boxes p:hover {
+    color: #555;
+    cursor: pointer;
+}
+
+
+.submit-btn {
+	color: #fff;
 	padding: 10px 20px;
-}
-
-form
-{
-    position: absolute;
-	width: 1100px;
-	height: 400px;
-	margin: 10% 10%;
-
-}
-lottie-player
-{
-    position: absolute;
-	width: 600px;
-	height: 300px;
-	margin: 10% 55%;
+	border-radius: 25px;
+	border:none;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	transition: 0.2s;
+	cursor: pointer;
 
 }
-.boxes
-{
-    font-size:20px;
+
+.submit-btn:hover{
+    background: rgb(0, 0, 0);
+	color: white;
 }
-input[type="checkbox"]
-{
-    appearance=none;
-    background-color: black;
+
+
+
+.result-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+	background-color: aqua;
+}
+
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+	background-color: bisque;
+}
+
+.mental-health-condition {
+    position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.mental-health-condition h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.mental-health-condition p {
+    font-size: 16px;
+    line-height: 1.5;
 }
