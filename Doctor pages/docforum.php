@@ -1,42 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Forum</title>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="css/docforum.css" />
-    </head>
-    <body>
-        <header>
-            <div class="wrapper">
+<head>
+    <meta charset="UTF-8" />
+    <title>Forum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/MentalHealthCare/css/docforum.css" />
+</head>
+<body>
+    <?php include('docnav.php'); ?>
+    <?php
+        $email = $_SESSION['email'];
+        ?>
+    <div>
+        <h1> Patient Discussion</h1>
+        <div class="comments" id="commentContainer"></div>
 
-                <ul class="nav-area">
-                    <li><a href="Doctorhome.php">Home</a></li>
-                    <li><a href="docforum.php">Discuss Forum</a></li>
-                    <li><a href="patientinfo.php">Patient information</a></li>
-                    <li><a href="User and medical.php">Logout</a></li>
-                <div class="top-bar">
+        <script>
+            
+            function getComments() {
+                fetch('retrieve.php')
+                    .then(response => response.json())
+                    .then(comments => {
+                        const commentContainer = document.getElementById('commentContainer');
+                        commentContainer.innerHTML = '';
 
-                </div>
-                <div class="main">
-                    <div class="header">
-                    </div>
-                    <h1>
-                        My Forum
-                    </h1>
-                    <textarea></textarea>
+                        if (comments.length > 0) {
+                            const table = document.createElement('table');
+                            
+                            // Add table header
+                            const headerRow = table.insertRow();
+                            const emailHeader = document.createElement('th');
+                            emailHeader.textContent = 'Email';
+                            const commentHeader = document.createElement('th');
+                            commentHeader.textContent = 'Comment';
+                            headerRow.appendChild(emailHeader);
+                            headerRow.appendChild(commentHeader);
 
-                    <button class="button">Add Comment</button>
-                    <div class="comments"></div>
-                </ul>
+                            comments.forEach(comment => {
+                                const row = table.insertRow();
+                                const emailCell = row.insertCell();
+                                const commentCell = row.insertCell();
 
+                                emailCell.textContent = comment.email; // Display the email
+                                commentCell.textContent = comment.comment;
 
-                </div>
-            </div>
-        </header>
-    </body>
+                                table.appendChild(row);
+                            });
+                            commentContainer.appendChild(table);
+                        } else {
+                            commentContainer.textContent = 'No comments available.';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+}
+            getComments();
+        </script>
+    </div>
+</body>
 </html>
+
+

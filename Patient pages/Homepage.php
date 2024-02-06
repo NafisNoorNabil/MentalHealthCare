@@ -18,6 +18,7 @@
         <div class="new">
             <h1>Let's heal through conversations.</h1>
             <a class="submit-btn" href="question2.0.php">Diagnose Problem</a>
+            <a class="submit-btn" href="question2.0.php">Book a Therapist</a>
         </div>
     </section>
 </body>

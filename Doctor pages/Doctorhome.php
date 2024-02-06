@@ -21,7 +21,5 @@
                 <h1>Welcome to the safest corner. Here we take care of your mental health.</h1>
             </div>
     </section>
-
-          
     </body>
 </html>

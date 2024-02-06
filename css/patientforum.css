@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+	background-color: #66CDAA;
+}
+
+
+
+
+h1 {
+    color: #333;
+	text-align: center;
+	margin-top: 40px;
+}
+
+textarea {
+	position: relative;
+    width: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 30px;
+	font-size: 15px;
+
+}
+
+
+button.button {
+	margin-top: 10px;
+	display: block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	transition: 0.2s;
+}
+
+button.button:hover {
+    background: rgb(0, 0, 0);
+	color: white;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.submit-btn {
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 25px;
+	border-color: black;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	transition: 0.2s;
+}
+
+.submit-btn:hover{
+    background: rgb(0, 0, 0);
+	color: white;
+    /* box-shadow: 1px 1px 5px 1px black; */
+
+}
+
+/* Add this to your existing CSS file (docforum.css) or create a new one */
+
+.comments {
+    margin-top: 20px;
+	position: relative;
+	background-color: #ffffff;
+	width: 50%;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+/* Add this to your existing CSS file or create a new one (e.g., docforum.css) */
+
+/* Apply a modern and clean styling to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for table headers */
+th, td {
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #eaeaea;
+}
+
+/* Add a subtle border radius to table cells */
+th, td {
+    border-radius: 4px;
+}
+
+/* Add some padding to the table container */

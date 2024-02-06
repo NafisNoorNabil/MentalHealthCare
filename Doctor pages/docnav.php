@@ -15,16 +15,16 @@
     <header>
     
     <?php
-        // session_start();
+        session_start();
 
-        // // Check if the user is logged in
-        // if (!isset($_SESSION['email'])) {
-        //     // Redirect to login page or handle unauthorized access
-        //     header("Location: /MentalHealthCare/loginregistration/patientlogin.php");
-        //     exit();
-        // }
-        // $email = $_SESSION['email'];
-        // $name = $_SESSION['name'];
+        // Check if the user is logged in
+        if (!isset($_SESSION['email'])) {
+            // Redirect to login page or handle unauthorized access
+            header("Location: /MentalHealthCare/loginregistration/doctorlogin.php");
+            exit();
+        }
+        $email = $_SESSION['email'];
+        $name = $_SESSION['name'];
         ?>
 
         
@@ -33,14 +33,12 @@
                 <li><a href="Doctorhome.php">Home</a></li>
                 <li><a href="docforum.php">Discuss Forum</a></li>
                 <li><a href="patientinfo.php">Patient information</a></li>
-                <li><a href="User and medical.php">Logout</a></li>
                 <li class="dropdown">
-                
+                <a href="#" class="dropbtn"><?php echo "$name [$email]"; ?></a>
                 <div class="dropdown-content">
-                        <a href="/MentalHealthCare/patient pages/logout.php">Logout</a>
+                        <a href="/MentalHealthCare/doctor pages/logout.php">Logout</a>
                 </div>
                 </li>
-
             </ul>
         </div>
     </header>

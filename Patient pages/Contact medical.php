@@ -1,125 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/contactmedical.css?v=<?php echo time(); ?>" />
+        <link rel="stylesheet" href="/MentalHealthCare/css/contactmedical.css?v=<?php echo time(); ?>" />
+        <title>Medical Help</title>
     </head>
     <body>
-        <header>
-            <div class="wrapper">
-                <ul class="nav-area">
-                    <li><a href="Homepage.php">Home</a></li>
-                    <li><a href="question2.0.php">Diagnose Problem</a></li>
-                    <li><a href="ss.php">Short Solutions</a></li>
-                    <li><a href="forum.php">Discuss Forum</a></li>
-                    <li><a href="Contact medical.php">Contact Medical Help</a></li>
-                    <li><a href="User and medical.php">Logout</a></li>
-                </ul>
-            </div>
-        </header>
-    <body>
+    <?php include('navbar.php'); ?>
         <section class="doctors" id="doctors">
-            <h1 class="heading">our <span>doctors</span></h1>
-
+            <h1 class="heading">Our <span> Doctors</span></h1>
             <div class="box-container">
                 <div class="box">
-                    <img src="undraw_profile_pic_ic-5-t.svg" alt="" />
+                    <img src="/MentalHealthCare/images/male.png" alt="" />
                     <h3>Nafis</h3>
                     <span>Therapist</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                        
-                    </div>
-                </div>
 
+                </div>
                 <div class="box">
-                    <img src="undraw_profile_pic_ic-5-t.svg" alt="" />
+                    <img src="/MentalHealthCare/images/male.png" alt="" />
                     <h3>Siam</h3>
                     <span>psychiatrist</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
-                </div>
 
+                </div>
                 <div class="box">
-                    <img src="Female-Avatar-300X300-01.jpg" alt="" />
+                    <img src="/MentalHealthCare/images/female.png" alt="" />
                     <h3>Farhana</h3>
                     <span>Psychologist</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
-                </div>
 
+                </div>
                 <div class="box">
-                    <img src="undraw_profile_pic_ic-5-t.svg" alt="" />
+                    <img src="/MentalHealthCare/images/male.png" alt="" />
                     <h3>Sabir</h3>
                     <span>Therapist</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
-                </div>
 
+                </div>
                 <div class="box">
-                    <img src="undraw_profile_pic_ic-5-t.svg" alt="" />
+                    <img src="/MentalHealthCare/images/male.png" alt="" />
                     <h3>Mahmud</h3>
                     <span>Counselor</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
                 </div>
-
                 <div class="box">
-                    <img src="undraw_profile_pic_ic-5-t.svg" alt="" />
+                    <img src="/MentalHealthCare/images/male.png" alt="" />
                     <h3>Arif</h3>
                     <span>Therapist</span>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
                 </div>
             </div>
         </section>
+
+
+
         <section class="book" id="book">
             <h1 class="heading"><span>book</span> now</h1>
 
             <div class="row">
                 <div class="image">
-                    <img src="undraw_doctors_hwty.svg" alt="" />
+                    <img src="/MentalHealthCare/images/consultation.png" alt="" />
                 </div>
 
                 <form action="">
-                    <h3>book appointment</h3>
-                    <input type="text" placeholder="your name" class="box" />
+                    <h3>Book Appointment</h3>
+                    <input type="text" placeholder="Name" class="box" />
                     <input
                         type="number"
-                        placeholder="your number"
+                        placeholder="Number"
                         class="box"
                     />
-                    <input type="email" placeholder="your email" class="box" />
+                    <input type="email" placeholder="Email" class="box" />
                     <input type="date" class="box" />
-                    <input type="submit" value="book now" class="btn" />
-                    <button class="btn">
-                        <a href="Payment.php">Payment</a>
-                    </button>
+                    <input type="submit" value="Book Now" class="btn" />
+                        <a class="btn" href="Payment.php">Payment</a>
                 </form>
             </div>
         </section>
+
+
+
         <section class="map" id="map">
             <h1 class="heading"><span>Nearby Health Care Centers</span></h1>
             <p>

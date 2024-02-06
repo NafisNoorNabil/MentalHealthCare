@@ -30,7 +30,7 @@
                 <li><a href="Homepage.php">Home</a></li>
                 <li><a href="question2.0.php">Diagnose Problem</a></li>
                 <li><a href="ss.php">Short Solutions</a></li>
-                <li><a href="forum.php">Discuss Forum</a></li>
+                <li><a href="patientforum.php">Discussion Forum</a></li>
                 <li><a href="Contact medical.php">Contact Medical Help</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn"><?php echo "$name [$email]"; ?></a>
